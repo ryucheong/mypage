@@ -1,95 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
-             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
-        <meta charset=“UTF-8” />
-        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
-        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
-        <meta property=“og:title” content=“르탄이 - 프로필 링크” />
-        <meta property=“og:description” content=“어서와 코딩은 처음이지?” />
-        <meta property=“og:image” content=“공유할 이미지” />
-        <title>르탄이 - 프로필 링크</title>
-        <style>
-            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="류시키의 링크 모음">
+    <meta property="og:description" content="패션 인플루언서">
+    <meta property="og:image" content="류시키.jpg">
+    <title>류시키</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         * {
             font-family: "Pretendard",serif;
-}
-        body {background-color: #44398a;}
-        .profile {width: 100px;
-        height: 100px;
+        }
+        body {
+            background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%ED%8C%AC+%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B5%AC%EB%A6%84%EB%B0%B0%EA%B2%BD.png');
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+          }
+          .profile {width: 100px;
+            height: 100px;
     
-    background-color: green;
-border-radius: 100%;
+            background-color: green;
+            border-radius: 100%;
 
-border : 2px solid white;
+            border : 2px solid white;
 
-background-image: url('류시키.jpg');
-background-position: center;
-background-size: cover;
-}
-.main {
-    color: white;
-    font-size: 20px;
-
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-.sub {
-    color: white;
-    font-size: 14px;
-
-    margin-top: 0px;
-    margin-bottom: 30px;
-}
-.wrap {
-    width: 300px;
-    margin: 30px auto 0px auto;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.wrap > a {
-    width: 300px;
-    height: 50px;
-
-    background-color: white;
-    border-radius: 8px;
-
-    margin-bottom: 10px;
-
-    font-size: 14px;
-    font-weight: bold;
-    color: #44398a;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    text-decoration: none;
-
-    box-shadow: 3px 3px 5px 0px black;
-}
-    .wrap > a:hover {
-        background-color: #f2f2f2;
-    }
-        </style>
-    </head>
-    <body>
-        <div class="wrap
-    ">
-            <div class="profile"></div>
-            <h1 class="main">류시키</h1>
-            <p class="sub">코딩 좋아하세요?</p>
-            <a target="_blank" href="https://www.instagram.com/ryu_si_ki/">인스타</a>
-            <a target="_blank" href="https://in.naver.com/ryu_si_ki">네이버 인플루언서</a>
-            <a target="_blank" href="https://www.youtube.com/channel/UCrwlz6DtTdR601sNmgtuPhQ">유튜브</a>
-            <a target="_blank" href="https://blog.naver.com/fashionoffice">네이버 블로그</a>
-            <a target="_blank" href="https://smartstore.naver.com/clothesbin">클로즈빈</a>
-            <a target="_blank" href="https://www.tiktok.com/@ryu_si_ki?lang=ko-KR">틱톡</a>
+            background-image: url('류시키.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color : #000000;
+            font-size: 22px;
+            size : 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub {
+            color : #000000;
+            font-size: 14px;
+            font-weight: 400;
+            size : 14px;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bigbutton {
+            width: 320px;
+            height: 59px;
+            border-radius: 8px;
+            background-color: white;
+            margin-bottom: 16px;
+            font-size: 14px;
+            font-weight: bold;
+            color:#000000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0px 4px 16px rgba(232, 52, 78, 0.2);
+        }
+        .buttons > a {
+            width: 152px;
+            height: 59px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: bold;
+            color:#FFFFFF;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0px 4px 16px rgba(232, 52, 78, 0.2);
+            margin: 0px 8px 17px 8px;
+        }
+        .dding {
+            background-color: rgb(77, 152, 187);
+        }
+        .online {
+            background-color: rgb(77, 152, 187);
+        }
+        .hang {
+            background-color: rgb(77, 152, 187);
+        }
+        .chang {
+            background-color: rgb(77, 152, 187);
+        }
+        .buttons {
+            display: flex;
+        }
+        .wrap > a:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">류시키</h1>
+        <p class="sub">@ryu_si_ki</p>
+        <a class="bigbutton"target="_blank" href="https://in.naver.com/ryu_si_ki">✨ 네이버 인플루언서</a>
+        <a class="bigbutton"target="_blank" href="https://blog.naver.com/fashionoffice">🍃 블로그</a>
+        <div class="buttons">
+            <a class="online"target="_blank" href="https://www.instagram.com/ryu_si_ki/">📸 Instagram</a>
+            <a class="chang"target="_blank" href="https://smartstore.naver.com/clothesbin">🌳 Storefarm</a>
         </div>
-    </body>
+        <div class="buttons">
+            <a class="dding" target="_blank" href="https://www.youtube.com/channel/UCrwlz6DtTdR601sNmgtuPhQ">🔴 Youtube</a>
+            <a class="hang" target="_blank" href="https://www.tiktok.com/@ryu_si_ki?lang=ko-KR">🎶 TikTok</a>
+        </div>
+    </div>
+</body>
 </html>
